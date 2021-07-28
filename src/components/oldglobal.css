@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #777;
+  padding: 3rem;
+  box-sizing: border-box;
+}
+
+/* this code translate to 10px. default font size is 16px * 0.625 */
+html {
+  font-size: 62.5%;
+}
