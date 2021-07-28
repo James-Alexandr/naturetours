@@ -1,10 +1,10 @@
 @import "./abstracts/variable.scss";
-// @import "./abstracts/mixin.scss";
-// @import "./abstracts/function.scss";
+@import "./abstracts/mixin.scss";
+@import "./abstracts/functions.scss";
 
 @import "./base/animations.scss";
 
-@import "./base/base.scss";
+@import "./base/global.scss";
 
 @import "../components/button/button.scss";
 
