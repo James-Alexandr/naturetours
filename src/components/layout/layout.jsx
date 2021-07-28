@@ -1,3 +1,5 @@
+import "../../styles/main.scss";
+
 <section className="grid-test">
     <div className="row">
         <div className="col-1-of-2">
