@@ -1,0 +1,32 @@
+@import "./abstracts/variable.scss";
+// @import "./abstracts/mixin.scss";
+// @import "./abstracts/function.scss";
+
+@import "./base/animations.scss";
+
+@import "./base/base.scss";
+
+@import "../components/button/button.scss";
+
+@import "../components/header/header.scss";
+
+/*
+=====================================================================
+*   Ceevee v1.0 Layout Stylesheet
+*   url: styleshout.com
+*   03-18-2014
+=====================================================================
+
+   TOC:
+   1.0 Variables
+   a. General Styles
+   b. Header Styles
+   c. About Section
+   d. Resume Section
+   e. Portfolio Section
+   f. Call To Action Section
+   g. Testimonials Section
+   h. Contact Section
+   i. Footer
+
+===================================================================== */

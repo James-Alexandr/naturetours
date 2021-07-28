@@ -1,7 +1,6 @@
 import React from 'react';
-import "./header.scss";
-// import "../oldglobal.css";
-// import "../global.scss";
+import "../../styles/main.scss";
+
 
 import Logo from '../../img/logo-white.png';
 
