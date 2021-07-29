@@ -1,3 +1,5 @@
+@import "../../styles/global/variable.scss";
+
 /* ------------------------------------------------------------------ */
 /* a. Header Styles
 /* ------------------------------------------------------------------ */
@@ -14,7 +16,9 @@
   background-size: cover;
   background-position: top;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon($clip-path-polygon-1);
+
+  // clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   & .logo-box {
     position: absolute;

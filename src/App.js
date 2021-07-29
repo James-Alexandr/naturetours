@@ -6,11 +6,8 @@ import './styles/main.scss';
 function App() {
   return (
     <div  >
-
       <Header />
       <Layout />
-
-
     </div>
 
   );
