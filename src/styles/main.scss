@@ -1,16 +1,16 @@
-@import "./abstracts/variable.scss";
+@import "./global/variable.scss";
 @import "./abstracts/mixin.scss";
 @import "./abstracts/functions.scss";
 
-@import "./base/animations.scss";
+@import "./global/animations.scss";
 
-@import "./base/global.scss";
+@import "./global/global.scss";
 
 @import "../components/button/button.scss";
 
 @import "../components/header/header.scss";
 
-@import "./layout/grid.scss";
+@import "./layout/layout.scss";
 /*
 =====================================================================
 *   Ceevee v1.0 Layout Stylesheet

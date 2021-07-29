@@ -1,0 +1,7 @@
+@import "../global/variable.scss";
+
+.row {
+  max-width: $grid-width;
+  background-color: red;
+  margin: 0 auto;
+}

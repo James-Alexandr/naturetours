@@ -1,0 +1,72 @@
+import React from "react";
+
+
+
+
+export default class Layout extends React.Component {
+    render() {
+        return (
+
+            <section className="grid-test">
+                <div className="row">
+                    <div className="col-1-of-2">
+                        col-1-of-2
+                    </div>
+                    <div className="col-1-of-2">
+                        col-1-of-2
+                    </div>
+
+                    <div className="col-1-of-2">
+                        col-1-of-3
+                    </div>
+                    <div className="col-1-of-3">
+                        col-1-of-3
+                    </div>
+                    <div className="col-1-of-3">
+                        col-1-of-3
+                    </div>
+
+                    <div className="col-1-of-3">
+                        col-1-of-3
+                    </div>
+                    <div className="col-2-of-3">
+                        col-2-of-3
+                    </div>
+
+                    <div className="col-1-of-4">
+                        col-1-of-4
+                    </div>
+                    <div className="col-1-of-4">
+                        col-1-of-4
+                    </div>
+                    <div className="col-1-of-4">
+                        col-1-of-4
+                    </div>
+                    <div className="col-1-of-4">
+                        col-1-of-4
+                    </div>
+
+                    <div className="col-1-of-4">
+                        col-1-of-4
+                    </div>
+                    <div className="col-1-of-4">
+                        col-1-of-4
+                    </div>
+                    <div className="col-1-of-4">
+                        col-2-of-4
+                    </div>
+
+                    <div className="col-1-of-4">
+                        col-1-of-4
+                    </div>
+                    <div className="col-1-of-4">
+                        col-3-of-4
+                    </div>
+
+                </div>
+            </section>
+
+
+        );
+    }
+}
