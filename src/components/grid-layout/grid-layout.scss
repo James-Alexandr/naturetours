@@ -1,8 +1,9 @@
-@import "../global/variable.scss";
+@import "../../styles/global/variable.scss";
+@import "../../styles/global/mixin.scss";
 
 .row {
   max-width: $grid-width;
-  background-color: #eee;
+  // background-color: #eee;
   margin: 0 auto;
 
   //selects everything but last child of row and sets margin-bottom to 0
@@ -14,7 +15,7 @@
 
   //selects everything but first child of row and sets margin-top to 0
   [class^="col-"] {
-    background-color: aqua;
+    // background-color: aqua;
     float: left;
     &:not(:last-child) {
       margin-right: $gutter-horizontal;

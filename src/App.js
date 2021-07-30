@@ -1,13 +1,20 @@
 
 
 import Header from './components/header/header';
-import Layout from './styles/layout/layout.jsx';
+import About from './components/about/about';
+
 import './styles/main.scss';
+
+
 function App() {
   return (
     <div  >
       <Header />
-      <Layout />
+      <main>
+        <About />
+      </main>
+
+
     </div>
 
   );
