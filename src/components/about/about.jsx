@@ -1,11 +1,14 @@
 
+import React from 'react';
+
 import './about.scss';
 import '../grid-layout/grid-layout.scss';
 import H2 from '../h2/h2.jsx';
 import '../../styles/global/utilities.scss'
-import React from 'react';
 
-
+import nat1 from '../../img/nat-1-large.jpg';
+import nat2 from '../../img/nat-2-large.jpg';
+import nat3 from '../../img/nat-3-large.jpg';
 
 
 
@@ -37,7 +40,11 @@ export default class About extends React.Component {
                         </a>
                     </div>
                     <div className="col-1-of-2">
-                        Img
+                        <div className="composition">
+                            <img src={nat1} alt="Mountain" className="composition_photo composition_photo--p1" />
+                            <img src={nat2} alt="View" className="composition_photo composition_photo--p2" />
+                            <img src={nat3} alt="Hiking" className="composition_photo composition_photo--p3" />
+                        </div>
                     </div>
                 </div>
             </section>
