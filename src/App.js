@@ -2,7 +2,7 @@
 
 import Header from './components/header/header';
 import About from './components/about/about';
-
+import Features from './components/features/features';
 import './styles/main.scss';
 
 
@@ -12,6 +12,7 @@ function App() {
       <Header />
       <main>
         <About />
+        <Features />
       </main>
 
 

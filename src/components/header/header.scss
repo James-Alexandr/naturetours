@@ -6,14 +6,14 @@
 
 .header {
   height: 95vh;
+  background-size: cover;
   background-image: linear-gradient(
       to right bottom,
       rgba($color-primary, 0.5),
       rgba($color-primary-light, 0.5),
       rgba($color-primary-dark, 0.8)
     ),
-    url("../../img/hero.jpg");
-  background-size: cover;
+    url("../../img/hero4.jpg");
   background-position: top;
   position: relative;
   clip-path: polygon($clip-path-polygon-1);
