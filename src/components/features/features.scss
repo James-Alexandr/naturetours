@@ -22,10 +22,12 @@
   text-align: center;
   border-radius: 0.5rem;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+  transition: transform 0.3s ease-in-out;
 
   &_icon {
     display: inline-block;
-    font-size: 5rem;
+    font-size: 6rem;
+
     margin-bottom: 0.5rem;
     background-image: linear-gradient(
       to right,
@@ -36,8 +38,6 @@
     color: transparent;
   }
   &:hover {
-    transform: translateY(-1.5rem);
-    scale: 1.1;
-    transition: transition-transform 0.3s ease-in-out;
+    transform: translateY(-1.5rem) scale(1.03);
   }
 }
