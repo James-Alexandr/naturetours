@@ -1,11 +1,18 @@
 
 import React from 'react';
 
-import '../grid-layout/grid-layout.scss';
-import './tours.scss';
-import '../../styles/global/utilities.scss';
 import H2 from '../h2/h2';
 import Card from '../cards/card';
+import Card2 from '../cards/card2';
+import Card3 from '../cards/card3';
+
+
+
+
+//import image1 from '../../img/nat-5.jpg';
+//import image2 from '../../img/nat-6.jpg';
+//import image3 from '../../img/nat-7.jpg';
+
 
 
 
@@ -21,13 +28,15 @@ export default class Tours extends React.Component {
                 <div className="row">
 
                     <div className="col-1-of-3">
-                        <Card />
+                        <Card
+
+                        />
                     </div>
                     <div className="col-1-of-3">
-                        col-1-of-3
+                        <Card2 />
                     </div>
                     <div className="col-1-of-3">
-                        col-1-of-3
+                        <Card3 />
                     </div>
                 </div>
 

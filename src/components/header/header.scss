@@ -16,6 +16,7 @@
     url("../../img/hero4.jpg");
   background-position: top;
   position: relative;
+  -webkit-clip-path: polygon($clip-path-polygon-1);
   clip-path: polygon($clip-path-polygon-1);
 
   & .logo-box {

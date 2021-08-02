@@ -1,10 +1,9 @@
 
 import React from 'react';
 
-import './about.scss';
-import '../grid-layout/grid-layout.scss';
+
 import H2 from '../h2/h2.jsx';
-import '../../styles/global/utilities.scss'
+
 
 import nat1 from '../../img/nat-1-large.jpg';
 import nat2 from '../../img/nat-2-large.jpg';

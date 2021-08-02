@@ -1,10 +1,7 @@
 
 import React from 'react';
 
-import '../grid-layout/grid-layout.scss';
-import './features.scss';
-import '../../styles/global/utilities.scss';
-import '../../styles/main.scss'
+
 
 
 
