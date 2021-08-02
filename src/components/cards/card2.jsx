@@ -16,7 +16,7 @@ export default class Card2 extends React.Component {
                     </div>
                     <h4 className="card__heading">
                         <span className="card__heading-span card__heading-span--2">
-                            Mountain Killer
+                            Mountain Hiker
                         </span>
 
                     </h4>
