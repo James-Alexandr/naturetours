@@ -10,7 +10,7 @@
     ),
     url("../../img/nat-4.jpg");
   background-size: cover;
-  clip-path: polygon($clip-path-polygon-1);
+  clip-path: polygon(0 14%, 100% 0, 100% 87%, 0% 100%);
 }
 
 .feature-box {

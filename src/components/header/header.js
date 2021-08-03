@@ -1,15 +1,21 @@
 import React from 'react';
 
-
+import "./header.scss"
 
 import Logo from '../../img/logo-white.png';
-
+import video2 from '../../img/mountain.mp4';
 
 
 export default class Header extends React.Component {
     render() {
         return (
             <header className="header">
+                <div className="bg-video">
+                    <video className="bg-video__content" autoPlay muted loop>
+                        <source src={video2} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
                 <div className="logo-box">
                     <img className="logo" src={Logo} alt="logo" />
                 </div>

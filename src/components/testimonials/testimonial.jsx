@@ -5,14 +5,24 @@ import H2 from '../h2/h2.jsx';
 import image1 from '../../img/nat-8.jpg';
 import image2 from '../../img/nat-9.jpg';
 import image3 from '../../img/nat-10.jpg';
+import video1 from '../../img/video.mp4';
+import video2 from '../../img/video.webm';
 
 
 export default class About extends React.Component {
     render() {
         return (
             <section className="section-testimonials">
+                <div className="bg-video-testimonial">
+                    <video className="bg-video-testimonial__content" autoPlay muted loop>
+                        <source src={video1} type="video/mp4" />
+                        <source src={video2} type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
                 <div className="u-center-text u-margin-bottom-8">
-                    <H2 heading="See what others are saying" />
+                    <H2 heading="We make people really happy" />
                 </div>
                 <div className="row">
                     <div className="story">
@@ -60,6 +70,7 @@ export default class About extends React.Component {
                 <div className="u-center-text u-margin-top-huge" >
                     <a href="#" className="btn btn-text ">Discover all tours &rarr;</a>
                 </div>
+
             </section>
 
 
