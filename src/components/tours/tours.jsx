@@ -21,7 +21,6 @@ export default class Tours extends React.Component {
     render() {
         return (
             <section className="section-tours">
-
                 <div className="u-center-text u-margin-bottom-8">
                     <H2 heading="Most popular tours!" />
                 </div>
@@ -29,7 +28,6 @@ export default class Tours extends React.Component {
 
                     <div className="col-1-of-3">
                         <Card
-
                         />
                     </div>
                     <div className="col-1-of-3">
@@ -39,8 +37,6 @@ export default class Tours extends React.Component {
                         <Card3 />
                     </div>
                 </div>
-
-
             </section>
         );
     }

@@ -37,7 +37,7 @@ export default class Card2 extends React.Component {
                         <div className="card__price-box">
                             <p className="card__price-only">Only</p>
                             <p className="card__price-value">
-                                $250
+                                $439
                             </p>
                             <a href="#" className="btn btn-back-card">Book now</a>
                         </div>
