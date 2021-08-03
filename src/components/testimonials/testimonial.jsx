@@ -52,7 +52,7 @@ export default class About extends React.Component {
                         </div>
                     </div>
                 </div>
-
+                {/* 
                 <div className="row">
                     <div className="story">
                         <figure className="story__shape">
@@ -66,7 +66,7 @@ export default class About extends React.Component {
                             <p > Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt dolor itaque soluta. Nostrum incidunt minus illum nemo, earum obcaecati doloribus, a numquam sint possimus odio asperiores! Omnis doloribus aliquam mini</p>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="u-center-text u-margin-top-huge" >
                     <a href="#" className="btn btn-text ">Discover all tours &rarr;</a>
                 </div>
