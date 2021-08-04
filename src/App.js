@@ -5,6 +5,7 @@ import About from './components/about/about';
 import Features from './components/features/features';
 import Tours from './components/tours/tours';
 import Testimonial from './components/testimonials/testimonial';
+import Bookking from './components/booking/booking';
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Features />
         <Tours />
         <Testimonial />
+        <Bookking />
       </main>
 
 
