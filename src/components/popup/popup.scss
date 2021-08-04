@@ -1,0 +1,81 @@
+@import "../../styles/global/mixin.scss";
+
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(#000000, 0.8);
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+
+  //   background-image: linear-gradient(100deg, #333 0%, black 74%);
+  &:target {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__close {
+    &:link,
+    &:visited {
+      color: #777;
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem;
+      font-size: 3rem;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      line-height: 1;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+  &__content {
+    @include absCenter;
+    width: 75%;
+
+    background-color: white;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    display: table;
+    overflow: hidden;
+    transition: all 0.3s 0.2s ease;
+  }
+  &__left {
+    width: 33.3333333%;
+    // float: left;
+    display: table-cell;
+    vertical-align: middle;
+  }
+  &__right {
+    width: 66.666667%;
+    // float: right;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem;
+  }
+  &__img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  &__text {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 1px solid #eee;
+
+    hyphens: auto;
+  }
+  .btn--green {
+    background-color: #55c57a;
+    color: white;
+  }
+}

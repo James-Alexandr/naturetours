@@ -8,6 +8,7 @@ import Testimonial from './components/testimonials/testimonial';
 import Bookking from './components/booking/booking';
 import Footer from './components/footer/footer.js';
 import Navigation from './components/navigation/navigation';
+import Popup from './components/popup/popup';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Testimonial />
         <Bookking />
         <Footer />
+        <Popup />
       </main>
 
 

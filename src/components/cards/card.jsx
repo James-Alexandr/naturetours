@@ -46,7 +46,7 @@ export default class Card extends React.Component {
                             <p className="card__price-value">
                                 $249
                             </p>
-                            <a href="#" className="btn btn-back-card">Book now</a>
+                            <a href="#popup" className="btn btn--white btn-back-card">Book now</a>
                         </div>
                     </div>
                 </div>

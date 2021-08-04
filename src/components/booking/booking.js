@@ -15,7 +15,7 @@ export default class Booking extends React.Component {
                         <div className="book__form">
                             <form action="#" className="form " >
                                 <div className="u-margin-bottom-4">
-                                    <H2 heading="Placeholder" />
+                                    <H2 heading="Book now!" />
                                 </div>
 
 
