@@ -2,6 +2,7 @@
   background-color: #333;
   padding: 10rem 0;
   font-size: 1.4rem;
+  color: #f7f7f7;
 
   &__logo-box {
     text-align: center;
@@ -14,6 +15,7 @@
   &__navigation {
     border-top: 1px solid #e5e5e5;
     padding-top: 2rem;
+    display: inline-block;
   }
   &__list {
     list-style: none;
@@ -41,5 +43,11 @@
       box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
       transform: rotate(5deg) scale(1.1);
     }
+  }
+  &__copyright {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 2rem;
+    width: 80%;
+    float: right;
   }
 }

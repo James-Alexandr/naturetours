@@ -26,8 +26,8 @@ export default class Footer extends React.Component {
                         </div>
                     </div>
                     <div className="col-1-of-2">
-                        <p className="footer__copyright"> Copyright
-                            <a href="#" className="footer__link">footer
+                        <p className="footer__copyright">
+                            <a href="#" className="footer__link"> Copyright
                             </a>  Requires a valid value to be accessible. Provide a valid, navigable address as the href value commercial.
                         </p>
                     </div>
