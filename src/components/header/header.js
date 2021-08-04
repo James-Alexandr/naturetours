@@ -24,7 +24,7 @@ export default class Header extends React.Component {
                         <span className="heading-primary-main">OUTDOORS</span>
                         <span className="heading-primary-sub">Where life happens</span>
                     </h1>
-                    <a className="btn btn-white btn-animated" href="#">Discover our tours</a>
+                    <a className="btn btn--white btn-animated" href="#">Discover our tours</a>
 
                 </div>
 
