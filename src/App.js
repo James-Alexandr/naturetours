@@ -6,6 +6,7 @@ import Features from './components/features/features';
 import Tours from './components/tours/tours';
 import Testimonial from './components/testimonials/testimonial';
 import Bookking from './components/booking/booking';
+import Footer from './components/footer/footer.js';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Tours />
         <Testimonial />
         <Bookking />
+        <Footer />
       </main>
 
 

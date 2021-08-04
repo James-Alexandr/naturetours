@@ -13,7 +13,7 @@ export default class Booking extends React.Component {
                 <div className="row">
                     <div className="book">
                         <div className="book__form">
-                            <form action="#" className="form">
+                            <form action="#" className="form " >
                                 <div className="u-margin-bottom-4">
                                     <H2 heading="Placeholder" />
                                 </div>
@@ -29,7 +29,7 @@ export default class Booking extends React.Component {
                                     </input>
                                     <label htmlFor="text" className="form__label" id="name"> Email</label>
                                 </div>
-                                <div className="form_group">
+                                <div className="form_group ">
                                     <div className="form__radio-group">
                                         <input type="radio" id="small" className="form__radio-input" name="size" />
                                         <label for="small" className="form__radio-label">
@@ -40,10 +40,13 @@ export default class Booking extends React.Component {
                                         <input type="radio" id="large" className="form__radio-input" name="size" />
                                         <label for="large" className="form__radio-label">
                                             <span className="form__radio-button"></span>
-
                                             Large tour group</label>
                                     </div>
                                 </div>
+                                <div className="form__group">
+                                </div>
+
+                                <button className="btn btn--green ">Next step &rarr;</button>
                             </form>
                         </div>
                     </div>

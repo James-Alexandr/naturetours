@@ -27,7 +27,7 @@
     font-family: inherit;
     color: inherit;
     font-size: 1.5rem;
-    padding: 1.5rem 2rem;
+    padding: 0.8rem 2rem;
     border-radius: 2px;
     background-color: rgba(white, 0.5);
     border: none;
@@ -83,8 +83,8 @@
     padding-left: 3rem;
   }
   &__radio-button {
-    height: 2.5rem;
-    width: 2.5rem;
+    height: 2.3rem;
+    width: 2.3rem;
     border: 2px solid #55c57a;
     border-radius: 80%;
     display: inline-block;
@@ -109,5 +109,10 @@
   }
   &__radio-input:checked ~ &__radio-label &__radio-button::after {
     opacity: 1;
+  }
+
+  .btn--green {
+    background-color: #55c57a;
+    color: white;
   }
 }
