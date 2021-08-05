@@ -1,0 +1,56 @@
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #777;
+  padding: 3rem;
+  box-sizing: border-box;
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
+
+/* this code translate to 10px. default font size is 16px * 0.625 */
+html,
+body {
+  font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+
+  //https://www.codegrepper.com/code-examples/css/react+disable+horizontal+scroll
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+
+  //https://stackoverflow.com/questions/42308209/chrome-browser-automatically-scrolling-down-the-content-when-nobody-asked-it-to/42562623
+  overflow-anchor: none !important;
+
+  @include respond(tab-land) {
+    // width < 1200?
+    font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+  }
+
+  @include respond(tab-port) {
+    // width < 900?
+    font-size: 50%; //1 rem = 8px, 8/16 = 50%
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%; //1rem = 12, 12/16
+  }
+  // width: 100vw;
+  // height: 100vh !important;
+
+  // z-index: 1;
+  // max-width: 100%;
+}
