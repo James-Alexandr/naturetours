@@ -11,7 +11,7 @@ export default class Header extends React.Component {
         return (
             <header className="header">
                 <div className="bg-video" dangerouslySetInnerHTML={{
-                    __html: `>
+                    __html: `
                     <video className="bg-video__content" playsinline loop autoPlay muted autobuffer>
                         <source src=${video2} type="video/mp4" />
                         Your browser does not support the video tag.
