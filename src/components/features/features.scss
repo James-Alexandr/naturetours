@@ -10,12 +10,15 @@
     ),
     url("../../img/nat-4.jpg");
   background-size: cover;
-  clip-path: polygon(0 14%, 100% 0, 100% 87%, 0% 100%);
+  clip-path: polygon(0 9%, 100% 0, 100% 92%, 0% 100%);
+
+  @include respond(tab-port) {
+    padding: 10rem 0;
+  }
 }
 
 .feature-box {
   width: 100%;
-
   background-color: rgba($color-white, 0.8);
   font-size: 1.5rem;
   padding: 2.5rem;
@@ -23,6 +26,10 @@
   border-radius: 0.5rem;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
   transition: transform 0.3s ease-in-out;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 
   &_icon {
     display: inline-block;
@@ -36,6 +43,9 @@
     );
     background-clip: text;
     color: transparent;
+    @include respond(tab-port) {
+      margin-bottom: 0;
+    }
   }
   &:hover {
     transform: translateY(-1.5rem) scale(1.03);

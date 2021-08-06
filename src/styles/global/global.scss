@@ -18,6 +18,16 @@ body {
   color: #777;
   padding: 3rem;
   box-sizing: border-box;
+  //https://www.codegrepper.com/code-examples/css/react+disable+horizontal+scroll
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-anchor: none;
+
+  //https://stackoverflow.com/questions/42308209/chrome-browser-automatically-scrolling-down-the-content-when-nobody-asked-it-to/42562623
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }
 
 /* this code translate to 10px. default font size is 16px * 0.625 */
