@@ -10,13 +10,13 @@ export default class Header extends React.Component {
     render() {
         return (
             <header className="header">
-                <div className="bg-video" dangerouslySetInnerHTML={{
+                {/* <div className="bg-video" dangerouslySetInnerHTML={{
                     __html: `
                     <video className="bg-video__content" playsinline loop autoPlay muted autobuffer>
                         <source src=${video2} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    ` }}></div>
+                    ` }}></div> */}
                 <div className="logo-box">
                     <img className="logo" src={Logo} alt="logo" />
                 </div>

@@ -11,6 +11,9 @@
     padding: 15rem 0;
     margin-bottom: -10rem;
   }
+  @include respond(phone) {
+    margin-top: -5vh;
+  }
 }
 
 .heading-h3 {

@@ -8,28 +8,57 @@
 .header {
   height: 95vh;
   background-size: cover;
-  background-image: linear-gradient(to bottom, #f5f5f5 0%, #f0f0f0 0%);
+  // background-image: linear-gradient(to bottom, #f5f5f5 0%, #f0f0f0 0%);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.8),
+      rgba($color-primary-dark, 0.8)
+    ),
+    url("../../img/hero1.jpg");
 
   background-position: top;
   position: relative;
+
   -webkit-clip-path: polygon($clip-path-polygon-1);
   clip-path: polygon($clip-path-polygon-1);
 
   @supports (clip-path: polygon(0 0)) or (-webkit-clip-path: polygon(0 0)) {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    -webkit-clip-path: polygon($clip-path-polygon-1);
+    clip-path: polygon($clip-path-polygon-1);
     height: 95vh;
   }
 
   @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
     only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em),
     only screen and (min-width: 125em) {
-    background-image: linear-gradient(to bottom, #f5f5f5 0%, #f0f0f0 0%);
+    // background-image: linear-gradient(to bottom, #f5f5f5 0%, #f0f0f0 0%);
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
+      ),
+      url("../../img/hero3.jpg");
   }
 
   @include respond(phone) {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 90vh, 0 100%);
+    background-image: linear-gradient(
+        to right bottom,
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
+      ),
+      url("../../img/hero.jpg");
+
+    .bg-video {
+      display: none;
+
+      // &__content {
+      //   height: 100%;
+      //   width: 100%;
+      //   object-fit: cover;
+      // }
+    }
   }
 
   & .logo-box {
